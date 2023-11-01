@@ -92,33 +92,25 @@
 .port .cont h3{
     text-align: center;
     font-size: 2.5rem;
-    /* margin-top: 10px; */
     text-transform: capitalize;
 
 }
 .port .cont h3 span{
     text-align: center;
     font-size: 3.5rem;
-    color: #dd8f43;
-    /* margin-top: 5px; */
-    /* text-transform: capitalize; */
-
+    color: #dd8f43;  
 }
 
 .port .cont p{
     font-size: 1rem;
-    /* margin-top: 10px; */
     font-weight: bolder;
 }
 
 .port .about h1{
-    padding: 0 20px;
+    padding: 0 20px ;
     position: relative;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bold;
-
-    /* top: 20px; */
-
 }
 
 .port .about small{

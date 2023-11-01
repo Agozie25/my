@@ -1,0 +1,167 @@
+
+
+@media (max-width:850px){
+    .content {
+        padding: 0 3rem;
+        text-align: center;
+    }
+
+    .modal-box{
+        padding: 10px 20px;
+            top: 200px;
+            width: 500px;
+            left: 200px;
+    }
+    .back{
+        width: 100%;
+        height: 100%;
+    }
+
+    .mark{
+        position: absolute;
+        top: 0;
+        left: 30rem;
+    }
+        .navbar{
+            background: #fff;
+            width: 400px;
+            position: absolute;
+            top: 71.5px;
+            left: 50px;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            animation: moving 2s forwards;
+            display: none;
+            align-items: center; 
+             justify-content: center;
+        }
+
+        #portfolio{
+            padding: 20px 0;
+            transition: all .3s ease;
+            animation: moves 2s forwards;
+            width: 40%;    
+        }
+
+        .side{
+            padding: 2rem 0;
+        }
+
+        .port{
+            display: grid;
+            grid-template-columns: 1fr;    
+        }
+
+        .front img{
+            width: 500px;
+            height: 500px;
+            object-fit: cover;
+        }
+
+        .port .cont p{
+            font-size: 1.5rem;
+        }
+
+        .port .about h1{
+            padding: 20px 0 0 0 ;
+            position: relative;
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+
+        .port .front{
+            /* display: flex; */
+            align-items: center;
+            flex-direction: column;
+            justify-content: right;
+            padding: 20px 0;
+            padding-bottom: 10px;
+            border-right: 2px solid #dd8f43;
+            border-bottom: 2px solid #dd8f43;
+        
+        }
+        .port .front small{
+            font-size: 30px;
+        }
+}
+
+@media (max-width:480px){
+    .port .front small{
+        font-size: 20px;
+    }
+
+    .back{
+        width: 100%;
+        height: 100%;
+    }
+
+    .content {
+        font-size: 2rem;
+        padding: 20px;
+        text-align: center;
+        margin-top: 40px;
+
+    }
+    .content h1 {
+        padding: 0 20px;
+        text-align: center;
+        font-size: 3rem;
+    }
+    .content h1 span {
+        padding: 20px;
+        text-align: center;
+        font-size: 4rem;
+    }
+     
+    .content p{
+        font-size: 1.5rem;
+        margin-bottom: 5px;
+        font-family: serif;
+    }
+
+    .modal-box{
+    padding: 10px 20px;
+        top: 100px;
+        width: 300px;
+        left: 100px;
+    }
+
+    .mark{
+        position: absolute;
+        top: 0;
+        left: 18rem;
+    }
+
+    .navbar{
+        background: #fff;
+        width: 400px;
+        position: absolute;
+        top: 71.5px;
+        left: 15px;
+    }
+
+    #portfolio{
+        flex-direction: column;
+        transition: all .3s ease;
+    }
+
+    .port{
+        display: grid;
+        grid-template-columns:1fr;
+        
+    }
+    .front img{
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+    }
+    .port .cont p{
+        font-size: 1rem;
+    }
+    .side{
+        padding: 2rem ;
+    }
+
+}

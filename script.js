@@ -36,12 +36,12 @@ form.addEventListener('submit',(e)=>{
     return;
 })
 
-hireMeBtn.addEventListener('click',()=>{
-    portfolio.classList.remove('visible')
-    content.classList.add('visible')
-    contactModal.classList.add('visible')
-    // modalBox.classList.remove('visible')
-})
+// hireMeBtn.addEventListener('click',()=>{
+//     portfolio.classList.remove('visible')
+//     content.classList.add('visible')
+//     contactModal.classList.add('visible')
+//     // modalBox.classList.remove('visible')
+// })
 
 send.addEventListener('click',()=>{
     if(!inputel.value){
