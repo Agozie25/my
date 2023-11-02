@@ -1,10 +1,7 @@
 
 
 @media (max-width:850px){
-    .content {
-        padding: 0 3rem;
-        text-align: center;
-    }
+   
 
     .modal-box{
         padding: 10px 20px;
@@ -17,36 +14,49 @@
         height: 100%;
     }
 
+    .content {
+        font-size: 3rem;
+        padding: 0 20px ;
+        text-align: center;
+        margin-top: 80px;
+
+    }
+    .content h1 {
+        font-size: 4rem;
+    }
+    .content h1 span {
+        font-size: 5rem;
+    }
+
     .mark{
         position: absolute;
         top: 0;
         left: 30rem;
     }
-        .navbar{
-            background: #fff;
-            width: 400px;
-            position: absolute;
-            top: 71.5px;
-            left: 50px;
-            border-radius: 20px;
-            display: flex;
-            flex-direction: column;
-            animation: moving 2s forwards;
-            display: none;
-            align-items: center; 
-             justify-content: center;
-        }
 
-        #portfolio{
-            padding: 20px 0;
-            transition: all .3s ease;
-            animation: moves 2s forwards;
-            width: 40%;    
-        }
+    .mark2{
+    left: 470px;
+    }
+    .navbar{
+        background: #fff;
+        width: 500px;
+        position: absolute;
+        top: 120px;
+        left: 200px;
+        border-radius: 20px;
+        animation: moving .2s forwards;
+    }
 
-        .side{
-            padding: 2rem 0;
-        }
+    #portfolio{
+        padding: 20px 0;
+        transition: all .3s ease;
+        animation: moves 2s forwards;
+        width: 40%;    
+    }
+
+    .side{
+        padding: 2rem 0;
+    }
 
         .port{
             display: grid;
@@ -85,9 +95,22 @@
         .port .front small{
             font-size: 30px;
         }
+        #contact{
+            padding: 10px 15px;
+            top: 200px;
+            width: 500px;
+            left: 250px;
+            animation: move 2s ease;
+            display: none;
+        }
 }
 
 @media (max-width:480px){
+    #contact{
+        top: 200px;
+        width: 300px;
+        left: 100px;
+    }
     .port .front small{
         font-size: 20px;
     }
@@ -105,13 +128,9 @@
 
     }
     .content h1 {
-        padding: 0 20px;
-        text-align: center;
         font-size: 3rem;
     }
     .content h1 span {
-        padding: 20px;
-        text-align: center;
         font-size: 4rem;
     }
      
@@ -133,6 +152,10 @@
         top: 0;
         left: 18rem;
     }
+
+    .mark2{
+        left: 370px;
+        }
 
     .navbar{
         background: #fff;

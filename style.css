@@ -11,19 +11,18 @@
 }
 
 #whatsapp a{
-    color: #dd8f43;
+    color: #149279;
     cursor: pointer;
     text-decoration: underline;
     text-transform: capitalize;
 }
 body{
-    background: #dd8f43;
+    background: #149279;
 }
 /* header.visible{
     display: block;
 } */
 .main{
-    /* visibility: hidden; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -44,12 +43,12 @@ body{
 }
 .main h1 i{
     margin-right: 10px;
-    color: #dd8f43;
+    color: #149279;
 
 }
 
 .main h1 span{
-    color: #dd8f43;
+    color: #149279;
     box-shadow: 2px 2px 5px #332;
 }
 
@@ -130,7 +129,7 @@ body{
     top: 0;
     left: 30rem;
     font-size: 30px;
-    background: #dd8f43;
+    background: #149279;
     padding: 10px;
     color: #fff;
     border-bottom-left-radius: 20px;
@@ -248,7 +247,7 @@ button:hover{
     position: absolute;
     top: 71.5px;
     left: 600px;
-    height: 90vh;
+    /* height: 90vh; */
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -292,7 +291,7 @@ button:hover{
     cursor: pointer;
 }
 .navbar ul li i{
-    background: #dd8f43;
+    background: #149279;
     padding: 20px;
     border-radius: 50%;
     border: 2px solid #fff;
@@ -304,7 +303,7 @@ button:hover{
     top: 0;
     left: 360px;
     font-size: 30.5px;
-    background: #dd8f43;
+    background: #149279;
     color: #fff;
     border: 1px solid silver;
     border-bottom-right-radius: 20px;
@@ -319,7 +318,7 @@ button:hover{
 }
 
 .navbar ul li:hover{
-    background: #dd8f43;
+    background: #1abc9c;
     color: #fff;
     transform: scale(1.1);
 }

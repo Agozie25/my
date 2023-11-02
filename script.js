@@ -16,11 +16,23 @@ const portfolio = document.querySelector('#portfolio')
 const hireMeBtn = document.querySelector('.HireMe')
 const mark4 = document.querySelector('.mark4')
 const send = document.querySelector('.send')
-const contactModal = document.querySelector('.contact')
-const messageBox = contactModal.querySelector('h2')
-const form =  document.querySelector('form')
-const inputel = form.querySelector('.inputName');
-const forms = form.querySelectorAll('input');
+const contactModal = document.querySelector('#contact')
+const finished = document.querySelector('.Finished')
+
+finished.addEventListener('click',()=>{
+    contactModal.style.display = 'block'
+    navbar.classList.toggle('visible')
+    content.classList.add('visible')
+    back.classList.add('visible')
+
+})
+
+
+mark4.addEventListener('click',()=>{
+    contactModal.style.display = 'none'
+    back.classList.remove('visible')
+
+})
 
 
 
@@ -31,27 +43,6 @@ mark4.addEventListener('click',()=>{
     content.classList.remove('visible')
 })
 
-form.addEventListener('submit',(e)=>{
-    e.preventDefault();
-    return;
-})
-
-// hireMeBtn.addEventListener('click',()=>{
-//     portfolio.classList.remove('visible')
-//     content.classList.add('visible')
-//     contactModal.classList.add('visible')
-//     // modalBox.classList.remove('visible')
-// })
-
-send.addEventListener('click',()=>{
-    if(!inputel.value){
-        alert('Nothing to send.')
-        return
-    }else{
-            messageBox.style.display = 'block'
-            form.style.display = 'none'
-        }
-})
 
 
 
@@ -85,6 +76,7 @@ back.addEventListener('click',()=>{
     content.classList.remove('visible')
     portfolio.classList.remove('visible')
     contactModal.classList.remove('visible')
+    contactModal.style.display = 'none'
 
 
 
@@ -114,15 +106,7 @@ profile.addEventListener('click',()=>{
         portfolio.classList.remove('visible')
     }
     
-    // portfolio.classList.toggle('visible')
     
-})
-
-
-
-gallery.addEventListener('click',()=>{
-    modalBox.classList.toggle('visible')
-
 })
 
 mark3.addEventListener('click',()=>{
