@@ -161,7 +161,6 @@ font-family: 'Roboto Slab', serif;
 }
 .port .contact{
     padding: 20px;
-    /* border-right: 2px solid #dd8f43; */
 
 }
 
@@ -185,7 +184,7 @@ img{
     border-top-left-radius: 2rem;
     top: 200px;
     width: 700px;
-    left: 500px;
+    left: 350px;
     z-index: 100;
     animation: move 2s ease;
     display: none;
@@ -323,10 +322,4 @@ form button:hover{
     color: #000;
     text-transform: capitalize;
 }
-
-
-
-
-
-
 
