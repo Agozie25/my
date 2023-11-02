@@ -19,18 +19,20 @@ const send = document.querySelector('.send')
 const contactModal = document.querySelector('#contact')
 const finished = document.querySelector('.Finished')
 
+
 finished.addEventListener('click',()=>{
     contactModal.style.display = 'block'
-    navbar.classList.toggle('visible')
+    navbar.classList.remove('visible')
     content.classList.add('visible')
     back.classList.add('visible')
 
 })
 
-
-mark4.addEventListener('click',()=>{
-    contactModal.style.display = 'none'
-    back.classList.remove('visible')
+    
+    mark4.addEventListener('click',()=>{
+        contactModal.style.display = 'none'
+    back.classList.add('visible')
+    content.classList.add('visible')
 
 })
 
@@ -47,10 +49,10 @@ mark4.addEventListener('click',()=>{
 
 
 next.addEventListener('click',()=>{
+    back.classList.remove('visible')
     navbar.classList.toggle('visible')
     // content.classList.remove('visible')
     modalBox.classList.remove('visible')
-    back.classList.remove('visible')
 
 })
 
