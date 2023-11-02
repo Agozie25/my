@@ -245,8 +245,8 @@ button:hover{
     background: #fff;
     width: 400px;
     position: absolute;
-    top: 71.5px;
-    left: 600px;
+    top: 90px;
+    left: 500px;
     /* height: 90vh; */
     border-radius: 20px;
     display: flex;
