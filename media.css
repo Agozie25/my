@@ -18,7 +18,7 @@
         font-size: 3rem;
         padding: 0 20px ;
         text-align: center;
-        margin-top: 180px;
+        margin-top: 280px;
 
     }
     .content h1 {
@@ -206,6 +206,10 @@
 
     #portfolio .preview{
         margin-top: 10px;
+    }
+
+    .content{
+        margin-top: 300px;
     }
 
 }
