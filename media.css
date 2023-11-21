@@ -18,7 +18,7 @@
         font-size: 3rem;
         padding: 0 20px ;
         text-align: center;
-        margin-top: 280px;
+        margin-top: 80px;
 
     }
     .content h1 {
@@ -48,18 +48,11 @@
     }
 
     #portfolio{
-        top: 50px;
         padding: 20px 0;
         transition: all .3s ease;
         animation: moves 2s forwards;
         width: 40%;    
     }
-
-    .navbar li i{
-        color: #fff;
-    }
-
-  
 
     .side{
         padding: 2rem 0;
@@ -95,7 +88,8 @@
             justify-content: right;
             padding: 20px 0;
             padding-bottom: 10px;
-            border-bottom: 2px solid #149279 ;
+            border-right: 2px solid #dd8f43;
+            border-bottom: 2px solid #dd8f43;
         
         }
         .port .front small{
@@ -115,7 +109,7 @@
     #contact{
         top: 200px;
         width: 300px;
-        left: 15px;
+        left: 100px;
     }
     .port .front small{
         font-size: 20px;
@@ -150,7 +144,7 @@
     padding: 10px 20px;
         top: 100px;
         width: 300px;
-        left: 10px;
+        left: 100px;
     }
 
     .mark{
@@ -160,14 +154,15 @@
     }
 
     .mark2{
-        left: 240.5px;
+        left: 370px;
         }
 
     .navbar{
-        width: 300px;
+        background: #fff;
+        width: 400px;
         position: absolute;
-        top: 100px;
-        left: 0;
+        top: 71.5px;
+        left: 15px;
     }
 
     #portfolio{
@@ -190,26 +185,6 @@
     }
     .side{
         padding: 2rem ;
-    }
-    .main h1 i{
-        font-size: 10px;
-        display: none;
-    }
-
-    .navbar h1{
-        margin: 20px 0;
-    }
-
-    .navbar li i{
-        color: #fff;
-    }
-
-    #portfolio .preview{
-        margin-top: 10px;
-    }
-
-    .content{
-        margin-top: 300px;
     }
 
 }

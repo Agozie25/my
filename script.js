@@ -14,45 +14,27 @@ const portfolio = document.querySelector('#portfolio')
 
 
 const hireMeBtn = document.querySelector('.HireMe')
-const mark4 = document.querySelector('.mark4')
+const mark4 = document.querySelector('.vibe')
 const send = document.querySelector('.send')
 const contactModal = document.querySelector('#contact')
 const finished = document.querySelector('.Finished')
 
-
 finished.addEventListener('click',()=>{
     contactModal.style.display = 'block'
-    navbar.classList.remove('visible')
+    navbar.classList.toggle('visible')
     content.classList.add('visible')
     back.classList.add('visible')
 
-})
-
-    
-    mark4.addEventListener('click',()=>{
-        contactModal.style.display = 'none'
-    back.classList.add('visible')
-    content.classList.add('visible')
-
-})
-
-
-
-mark4.addEventListener('click',()=>{
-    modalBox.classList.remove('visible')
-    back.classList.remove('visible')
-    contactModal.classList.toggle('visible')
-    content.classList.remove('visible')
 })
 
 
 
 
 next.addEventListener('click',()=>{
-    back.classList.remove('visible')
     navbar.classList.toggle('visible')
-    // content.classList.remove('visible')
     modalBox.classList.remove('visible')
+    back.classList.remove('visible')
+
 
 })
 
@@ -116,6 +98,20 @@ mark3.addEventListener('click',()=>{
     portfolio.classList.remove('visible')
     content.classList.remove('visible')
 
+})
+
+// mark4.addEventListener('click',()=>{
+//     contactModal.classList.remove('visible')
+//     back.classList.remove('visible')
+
+// })
+
+mark4.addEventListener('click',()=>{
+    modalBox.classList.remove('visible')
+    back.classList.remove('visible')
+    contactModal.style.display = 'none'
+    mark4.style.color = 'red'
+    content.classList.remove('visible')
 })
 
 // contact
