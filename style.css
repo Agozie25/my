@@ -265,7 +265,7 @@ button:hover{
     animation: moving 2s forwards;
     display: none;
     align-items: center; 
-    box-shadow: 3px 3px 3px 5px rgba(0, 0, 0, 0.8);
+    box-shadow: 3px 3px 3px 5px rgba(0, 0, 0, 0.6);
      justify-content: center;
 }
 

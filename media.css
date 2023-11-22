@@ -154,15 +154,19 @@
     }
 
     .mark2{
-        left: 370px;
+        left: 320px;
         }
 
     .navbar{
         background: #fff;
-        width: 400px;
+        width: 350px;
         position: absolute;
-        top: 71.5px;
-        left: 15px;
+        top: 95px;
+        left: 10px;
+    }
+
+    .navbar:hover{
+        transform: scale(1.1);
     }
 
     #portfolio{
