@@ -109,6 +109,14 @@
     .main{
         width: 100%;
     }
+
+    .bars{
+        margin-left: 10px;
+    }
+
+    .main h1{
+        margin-right: 10px;
+    }
     #contact{
         top: 200px;
         width: 300px;
